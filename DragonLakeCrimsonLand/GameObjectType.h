@@ -1,5 +1,5 @@
 #pragma once
-enum GameObjectType
+enum class GameObjectType
 {
 	Player,
 	Enemy,

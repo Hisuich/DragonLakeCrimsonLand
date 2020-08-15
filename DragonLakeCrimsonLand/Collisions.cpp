@@ -36,13 +36,13 @@ void Collisions::Process()
 
 				switch (typeOne)
 				{
-				case Player:
+				case GameObjectType::Player:
 					PlayerCollision(i, typeTwo);
 					break;
-				case Enemy:
+				case GameObjectType::Enemy:
 					EnemyCollision(i, typeTwo);
 					break;
-				case Bullet:
+				case GameObjectType::Bullet:
 					BulletCollision(i,typeTwo);
 					break;
 				default:
@@ -51,13 +51,13 @@ void Collisions::Process()
 
 				switch (typeTwo)
 				{
-				case Player:
+				case GameObjectType::Player:
 					PlayerCollision(i, typeOne);
 					break;
-				case Enemy:
+				case GameObjectType::Enemy:
 					EnemyCollision(i, typeOne);
 					break;
-				case Bullet:
+				case GameObjectType::Bullet:
 					BulletCollision(i, typeOne);
 					break;
 				default:
