@@ -1,8 +1,5 @@
-*.dll
 
 /Debug/
-
-/Lib/
 
 /x64/
 
