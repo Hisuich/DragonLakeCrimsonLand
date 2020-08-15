@@ -1,0 +1,13 @@
+*.dll
+
+/Debug/
+
+/Lib/
+
+/x64/
+
+/DragonLakeCrimsonLand/Debug/
+
+/DragonLakeCrimsonLand/x64/
+
+/.vs/

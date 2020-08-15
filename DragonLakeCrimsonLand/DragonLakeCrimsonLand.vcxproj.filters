@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Header">
+      <UniqueIdentifier>{252e3196-0be3-45ac-83e4-02b575016a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Source">
+      <UniqueIdentifier>{f279256d-652d-49ca-8ec4-bd90097cf6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Header\Logic">
+      <UniqueIdentifier>{5880fe7d-b77f-4994-a266-17173b0574dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Source\Logic">
+      <UniqueIdentifier>{d8974143-5200-44aa-8bc2-c2dd0e9c34d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Source\Controller">
+      <UniqueIdentifier>{30720aa2-107c-4661-a6fe-1b354068a8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Header\Controller">
+      <UniqueIdentifier>{7d70dfc6-d67d-4c60-84ed-265f5727a89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\data">
+      <UniqueIdentifier>{b559cf86-da5d-483f-bf57-34f15d247391}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects.cpp">
+      <Filter>Исходные файлы\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Исходные файлы\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawner.cpp">
+      <Filter>Исходные файлы\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Исходные файлы\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Исходные файлы\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyController.cpp">
+      <Filter>Исходные файлы\Source\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Исходные файлы\Source\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitController.cpp">
+      <Filter>Исходные файлы\Source\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Исходные файлы\Source\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectType.h">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers.cpp">
+      <Filter>Исходные файлы\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2Int.cpp">
+      <Filter>Исходные файлы\Source\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Исходные файлы\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Исходные файлы\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Исходные файлы\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Исходные файлы\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects.h">
+      <Filter>Исходные файлы\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Исходные файлы\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitController.h">
+      <Filter>Исходные файлы\Header\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Исходные файлы\Header\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyController.h">
+      <Filter>Исходные файлы\Header\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Исходные файлы\Header\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawner.h">
+      <Filter>Исходные файлы\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Исходные файлы\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers.h">
+      <Filter>Исходные файлы\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2Int.h">
+      <Filter>Исходные файлы\Header\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Исходные файлы\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Исходные файлы\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\data\avatar.jpg">
+      <Filter>Файлы ресурсов\data</Filter>
+    </Image>
+    <Image Include="..\data\bullet.png">
+      <Filter>Файлы ресурсов\data</Filter>
+    </Image>
+    <Image Include="..\data\circle.tga">
+      <Filter>Файлы ресурсов\data</Filter>
+    </Image>
+    <Image Include="..\data\enemy.png">
+      <Filter>Файлы ресурсов\data</Filter>
+    </Image>
+    <Image Include="..\data\reticle.png">
+      <Filter>Файлы ресурсов\data</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
